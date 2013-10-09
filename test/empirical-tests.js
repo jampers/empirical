@@ -3,6 +3,7 @@ var empirical = require('../')
 
 test('empirical exists', function (assert) {
 	assert.ok(!!empirical);
+	assert.is('object', typeof empirical);
 	assert.end();
 });
 
