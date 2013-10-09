@@ -4,7 +4,7 @@
   "description": "create value by measuring lots",
   "main": "index.js",
   "scripts": {
-    "test": "set -e; for t in test/*.js; do node $t; done"
+    "test": "node test/empirical-tests.js"
   },
   "repository": {
     "type": "git",
